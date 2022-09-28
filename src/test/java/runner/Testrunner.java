@@ -24,10 +24,10 @@ public class Testrunner {
     public static void finish(){
 
     try {
-        System.out.println("generando reporte");
+        System.out.println("Generando Reporte");
         String[] cmd = {"cmd.exe", "/c","npm run report"};
         Runtime.getRuntime().exec(cmd);
-        System.out.println("reporte generado exitosamente");
+        System.out.println("Reporte generado exitosamente");
     }catch (Exception ex){
         ex.printStackTrace();
     }
